@@ -55,7 +55,7 @@ func playHangman() {
 				delete(wordLetters, userLetter)
 			} else {
 				lives--
-				fmt.Println("Letter is not in word.")
+				fmt.Println("Letter is not in word!")
 			}
 
 		} else if usedLetters[userLetter] {
